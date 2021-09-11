@@ -1,0 +1,1 @@
+web: sh setup.sh && streamlit run P001_EDA_Real_Estate.py
