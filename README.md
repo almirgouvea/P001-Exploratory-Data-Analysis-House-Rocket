@@ -4,7 +4,7 @@
 
 This repository contains business analysis scripts of a real estate portfolio. <br>
 
-The script below is a fictional creation focus on developing the business analysis of a real estate portfolio.
+The script below is a fictional creation focus on developing the analysis.
 
 ## Project 001 - Exploratory Data Analysis of a Real Estate:
 
@@ -43,11 +43,13 @@ Maximum Value Invested: US$4,733,752,273.00<br>
 Maximum Value Gained: US$6,153,877,954.90<br>
 Maximum Expected Profit: US$1,420,125,681.90<br>
 
+The profit with the business analysis of the real estate project will probably be 30% of invested value. <br>
+
 ## 3. Business Assumptions
 
 * Available data are only from May 2014 to May 2015.
 * There was a value where the number of bedrooms is vast compared to other houses, so this data was removed, assuming it was an input error.
-* When the houses could be sold on different seasons, considered just one to analyze the most suitable season to sell it
+* When the houses could be sold on different seasons, considered just one to analyze the most suitable season to sell it.
 * Seasons of the year:<br>
    * Spring starts on March 1 st<br>
    * Summer starts on June 1 st<br>
@@ -109,7 +111,8 @@ Variable | Definition
 <br>
 
 ## 4. Solution Strategy
-1. Understanding the business model
+My strategy to solve this challenge was:
+1. Understanding the business model 
 2. Understanding the business problem
 3. Collecting the data
 4. Data Description
@@ -117,16 +120,27 @@ Variable | Definition
 6. Feature Engineering
 8. Exploratory Data Analysis
 9. Insights Conclusion
-10. Dashboard deploy on Heroku
+10. Dashboard deploy on [Heroku](https://p001-eda-real-estate.herokuapp.com/)
 
 
 ## 5. Top Data Insights
-
+* Analyzing the "grade" attribute, observed that 2823 properties build with good quality material.
+* Analyzing the attribute "sqft_above" observed 1528 properties above ground level more extensive than the average per region.
+* Analyzing the attribute "sqft_basement" observed 2658 properties more prominent than the average per region.
+* Analyzing the attribute "view" observed 206 properties with a better view than the average per region.
+* Analyzing the attribute "waterfront," I observed nine properties with a waterfront.
+* Analyzing the attribute "yr_built" observed 2031 with construction below 20 years and 2394 below 40 years of construction.
+* Analyzing the attribute "yr_renovated," observed that 10340 never renovated properties, 152 with less than ten years e 62 with less than 20 years.
 
 ## 6. Conclusion
-
+I executed the aims proposed on this project successfully cause I specified which properties are recommendable to purchase or not, considering region, median price, and season. <br>
+I developed an online dashboard on the Heroku platform, making it easy for the CEO to perform data visualization, helping to choose the business decisions to get a high profit.
 
 ## 7. Next Steps
+* Analyze the effect of lake distance on properties price.
+* Analyze if it is advantageous to renovate the properties before being sold to improve the profit.
+* Analyze other statistics metrics to verify which one is the best tool to analyze the dataset.
+* Get more data and perform this method again.
 
 
 ----
