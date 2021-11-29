@@ -1,4 +1,4 @@
-# P001-Exploratory-Data_Analysis
+# P001-Exploratory-Data-Analysis
 
 <img src="https://user-images.githubusercontent.com/81056175/132755680-d9e3bbf0-14a1-4fad-b306-48ef39ec120a.png" width=70% height=70%/>
 
